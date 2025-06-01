@@ -1,50 +1,52 @@
-# Welcome to your Expo app 👋
+# 🧠 Mental Health Daily Check-In App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A cross-platform mobile app built with **React Native** and **Firebase**, designed to help users monitor and improve their mental well-being through daily mood tracking, personalized insights, and mindfulness practices.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+- 🌤️ **Mood Check-In:**  
+  Select your current mood using emoji-based input and receive a motivational or calming quote.
 
-2. Start the app
+- 📈 **Mood Trends Visualization:**  
+  View your mood history and trends over time using interactive charts with `react-native-chart-kit`.
 
-   ```bash
-    npx expo start
-   ```
+- 🔖 **Bookmark Feature:**  
+  Save favorite quotes or mindfulness exercises locally using `AsyncStorage` and `React Context`.
 
-In the output, you'll find options to open the app in a
+- 🔐 **Authentication System:**  
+  Secure login and signup functionality using **Firebase Authentication**.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- 🧘 **Mindfulness & Relaxation:**  
+  Access guided mindfulness tips and techniques to manage daily stress and improve focus.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- 👤 **User Profile & Logout:**  
+  Manage user sessions and log out easily. Logout button placed intuitively at the end of the profile screen.
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🧰 Tech Stack
+
+- **Frontend:** React Native (with Expo)
+- **Navigation:** Expo Router
+- **Backend & Auth:** Firebase
+- **State Management:** React Context
+- **Storage:** AsyncStorage
+- **Charts:** react-native-chart-kit
+- **Styling:** Tailwind-like utility classes via custom styles
+
+---
+
+## 🛠️ Installation & Running Locally
 
 ```bash
-npm run reset-project
-```
+# Clone the repository
+git clone https://github.com/your-username/mental-health-checkin-app.git
+cd mental-health-checkin-app
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# Install dependencies
+npm install
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Start Expo development server
+npx expo start
